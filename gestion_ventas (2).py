@@ -31,7 +31,7 @@ def fn_ProcesarListaVentas_fl(ventas_lst):
     
     while i < len(ventas_lst):
         total_fl += ventas_lst[i]
-    
+        i = i + 1 #BUG ENCONTRADO: NO ACTUALIZA EL INDICE
 
     return total_fl
 
